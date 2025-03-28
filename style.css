@@ -1,0 +1,1110 @@
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.Ellogo{
+    width: 90px;
+    margin: 18px 0px 18px 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+}
+
+a{
+    color: rgb(187, 181, 181);
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
+
+.PrimeraSeccion {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(assets/images/headerBg.png);
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+
+
+.TextoBotonLogo{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+
+.ContenedorTodo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.logoSeccion1{
+    width: 170px;
+}
+
+
+h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+
+.separadorBlanco {
+    width: 60px;        
+    height: 2px;        
+    background-color: #fff;  
+}
+
+
+.PrimerParrafo{
+    color: white;
+    width: 500px;
+}
+
+
+.BotonDownload{
+    color: white;
+    background: none;
+    border-color: white;
+    width: 25%;
+    padding: 11px 0px;
+    font-size: 16px;
+    transition: background 0.3s, color 0.3s;
+}
+
+
+.BotonDownload:hover {
+    background: white;
+    color: black;
+}
+
+
+.FormularioSeccion1{
+    background-color: white;
+    width: 400px;
+}
+
+
+input{
+    border: none;
+    outline: none;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.formulare{
+    padding: 0 20px;
+}
+
+
+.h2Form {    
+    display: flex;
+    justify-content: center;
+    background-color: gainsboro;
+    width: 100%;
+    padding: 20px 0px;
+    gap: 6px;
+}
+
+
+.formInput{
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 20px 0px 20px 0px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    border-bottom: lightgray solid 1px ;
+}
+
+
+.Free{
+    color: rgb(245, 164, 71);
+}
+
+
+.BotonForm{
+    color: white;
+    background-color:rgb(247, 144, 59);
+    width: 100%;
+    padding: 20px;  
+    border: none;
+    transition: 0.3s, color 0.3s;
+    margin-top: 35px;
+}
+
+.BotonForm:hover{
+    background: rgb(248, 125, 24);
+}
+
+
+.SegundaSeccion{
+    background-color: rgb(246, 246, 246);
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    height: 100px;
+}
+
+
+.H2YParrafoSeccion2{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.SocialMYLogos{
+    display: flex;
+}
+
+.SegundoParrafo{
+    width: 65%;
+    color: #747373;
+}
+
+
+.LogosDeSeccion2{
+    display: flex;
+    gap: 40px;
+}
+
+
+.TerceraSeccion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ece9e9;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 100px 0px 100px 0px;
+}
+
+
+.H2ParrafoBotonSeccion3{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+
+.Tabs{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.Orange{
+    color: white;
+    background-color: orange;
+    padding: 40PX 25px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.Tab{
+    color: white;
+    background-color: rgb(39, 38, 38);
+    padding: 40PX 25px;
+    transition: background 0.3s, color 0.3s;
+}
+
+
+.ParrafoTerceraseccion{
+    width: 800px;
+    color: #747373;
+}
+
+
+.BotonTerceraseccion{
+    border: none;
+    color: white;
+    background-color: rgb(247, 144, 59);
+    padding: 10px 0px;
+    width: 12%;
+    border-radius: 4px;
+    transition: background 0.3s, color 0.3s;
+}
+
+
+.BotonTerceraseccion:hover{
+    background-color: rgb(248, 125, 24);
+}
+
+
+.CuartaSeccion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 150px 0px;
+}
+
+
+.ImagenTechos{
+    box-shadow: 0 15px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+.ColumnaYlista{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+li{
+    list-style: none;
+}
+
+h4{
+    font-weight: 100px;
+    margin: 0px 0px 9px 0px;
+}
+
+.LiCuartaSeccion1{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 0px 0px 30px 0px;
+}
+
+
+.LiCuartaSeccion2{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+
+.icononube{
+    width: 35px;
+    height: 38px;
+}
+
+
+.Parrafo1CuartaSeccion{
+    width: 600px;
+    color: #747373;
+}
+
+
+.ParrafoLista{
+    width: 700px;
+    color: #747373;
+}
+
+
+.QuintaSeccion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 120px 0px;
+    background-color: #ece9e9;
+}
+
+.H2ParrafoQuintaSeccion{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+.separadorSapote{
+    width: 60px;        
+    height: 2px;        
+    background-color: rgb(248, 125, 24); 
+}
+
+
+.ImagenCiudad{
+    box-shadow: 0 15px 12px rgba(0, 0, 0, 0.3);
+}
+
+.ParrafoQuintaSeccion{
+    width: 600px;
+    color: #747373;
+}
+
+.SextaSeccion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+    padding: 110px 0px;
+}
+
+.H2SextaSeccion{
+    font-size: 35px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.pequeñoParrafo{
+    color: #585858;
+}
+
+
+.H2SepYTexto6Y7{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.ContCategorias{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+
+.categoria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.ParrafoCategoria{
+    color: #999;
+    text-align: center;  
+    width: 400px;
+    font-size: 14px;      
+    line-height: 1.6;     
+}
+
+
+.SeptimaSeccion{
+    display: flex;
+    flex-direction: column;
+    background-color: #ece9e9;
+    padding: 110px 0px;
+    gap: 75px;
+}
+
+
+.PlansYPricing{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+
+.OpcionesDePrecio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    gap: 40px;
+}
+
+
+.PrecioTiempo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: rgb(36, 35, 35);
+    padding: 17px 0px;
+}
+
+
+.H2Opciones{
+    padding: 12px 0px;
+    font-size: 19px;
+    text-align: center;
+    color: white;
+    background-color: rgb(36, 35, 35);
+    border-bottom: rgb(255, 255, 255) solid 1px;
+}
+
+
+.ListaPrecio{
+    text-align: center;
+    background-color: white;
+}
+
+
+.OurMost{
+    text-align: center;
+    color: white;
+    padding: 8px 0px;
+    background-color: rgb(248, 125, 24);
+}
+
+
+.SepardorOpciones{
+    width: 100%;        
+    height: 4px;        
+    background-color: rgb(248, 125, 24); 
+}
+
+
+.Precio{
+    font-size: 75px;
+    font-weight: bold;
+}
+
+
+.SignoPeso{
+    font-size: 30px; 
+}
+
+
+.CuantoTiempo{
+    font-style: italic;
+    margin-top: 10px;
+    color: #999;
+}
+
+
+.menu{
+    padding: 11px 0px;
+    color: #676767;
+    border-bottom: lightgray solid 1px;
+}
+
+
+.Basic{
+    width: 15%;
+}
+
+
+.Profesional{
+    width: 15%;
+}
+
+
+.Enterprise{
+    width: 15%;
+}
+
+
+.OctavamaSeccion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+    padding: 100px 0px;
+}
+
+
+.H2TextoSeccion8{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.H2OctavaSeccion{
+    font-weight: 300;
+    font-size: 35px;
+    font-family: Arial, sans-serif;
+}
+
+
+.ParrafoOctavaSeccion{
+    color: #676767;
+}
+
+
+.MensajesYFotoTodos{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+
+.MensajeFoto{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+
+.ImagenUsuario{
+    border-radius: 50px;
+    width: 80px;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.4);
+}
+
+
+.ParrafoMensaje{
+    width: 270px;
+    color: #676767;
+    padding: 15px 23px;
+    background-image: url(assets/images/textBubble.png);
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.FotoUsuario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 11px;
+}
+
+
+.Profecion{
+    color: #676767;
+}
+
+.NovenaSeccion{
+    color: white;
+    background-image: url(assets/images/bg2.png);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ContenidoNovenaSeccion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+
+.H2NovenaSeccion{
+    font-weight: 300;
+    font-size: 35px;
+    font-family: Arial, sans-serif;
+}
+
+
+.DecimaSeccion{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    padding: 90px 0px;
+}
+
+
+
+.H2TexoDecimaSeccion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+
+.H2DecimaSeccion{
+    font-weight: 300;
+    font-size: 35px;
+    font-family: Arial, sans-serif;
+}
+
+
+.ParrafoDecimaSeccion{
+    color: #676767;
+}
+
+
+.Datos{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    gap: 50px;
+}
+
+
+.InpuContacto{
+    font-size: 15px;
+    margin: 35px 0px 0px 0px;
+    width: 600px;
+    color: rgb(0, 0, 0);
+    border-bottom: lightgray solid 1px ;
+}
+
+
+.DatosUsuario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.textareaMensaje{
+    font-size: 15px;
+    width: 600px;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-bottom: lightgray solid 1px ;
+    resize: none; 
+    outline: none;
+    height: 130px;
+}
+
+
+.BotonDecimaSeccin{
+    padding: 12px 0px;
+    color: white;
+    border: none;
+    width: 7%;
+    background-color: rgb(247, 144, 59);
+    border-radius: 4px;
+    transition: background 0.3s, color 0.3s;
+}
+
+
+.BotonDecimaSeccin:hover{
+    background-color: rgb(238, 118, 19);
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px 0px;
+    gap: 15px;
+}
+
+
+.H2Footer{
+    font-size: 10px;
+    color: #747373;
+}
+
+
+@media(max-width: 1279px){
+
+    nav{
+        gap: 20px;
+        width: 40%;
+    }
+
+    .logoSeccion1{
+        display: none;
+    }
+
+    .SegundaSeccion img{
+        width: 30px;
+    }
+
+    .SegundaSeccion{
+        gap: 0px;
+    }
+
+    .LogosDeSeccion2{
+        gap: 7px;
+    }
+
+    .SocialMedia{
+        width: 150px;
+    }
+
+    .H2YParrafoSeccion2{
+        width: 500px;
+    }
+
+    .BotonForm{
+        margin-top: 5px;
+    }
+
+    .ContenedorTodo{
+        flex-direction: column;
+        align-items: start;
+        gap: 40px;
+    }
+
+    .PrimeraSeccion{
+        display: flex;
+        align-items: center;
+    }
+
+    .FormularioSeccion1{
+        width: 320px;
+    }
+
+    .TerceraSeccion img{
+        display: none;
+    }
+
+    .ImagenTechos{
+        display: none;
+    }
+
+    .ImagenCiudad{
+        display: none;
+    }
+
+    .OctavamaSeccion{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ContCategorias{
+        flex-direction: column;
+    }
+
+    .MensajesYFotoTodos{
+        flex-direction: column;
+        gap: 50px;
+
+    }
+
+    .Datos{
+        flex-direction: column;
+    }
+
+    .Basic{
+        width: 25%;
+    }
+
+    .Profesional{
+        width: 25%;
+    }
+
+    .Enterprise{
+        width: 25%;
+    }
+
+    .TerceraSeccion{
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    .Tabs{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .BotonDecimaSeccin{
+        width: 12%;
+    }
+
+}
+
+@media(max-width: 920px){
+
+    .SegundaSeccion{
+        padding: 20px 0px 20px 90px ;
+        flex-direction: column;
+        align-items: start;
+        gap: 11px;
+    }
+
+    .ParrafoTerceraseccion{
+        width: 650px;
+    }
+
+    .SeptimaSeccion{
+        flex-direction: column;
+    }
+
+    .ParrafoLista{
+        width: 600px;
+    }
+
+    .OpcionesDePrecio{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Basic{
+        width: 40%;
+    }
+
+    .Profesional{
+        width: 40%;
+    }
+
+    .Enterprise{
+        width: 40%;
+    }
+
+    .BotonDecimaSeccin{
+        width: 15%;
+    }
+    
+}
+
+
+@media(max-width: 768px){
+
+    header{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0px;
+    }
+
+    nav{
+        width: auto;
+    }
+
+
+    h1{
+        display: flex;
+        text-align: center;
+        font-size: 27px;
+    }
+
+    .PrimerParrafo{
+        width: 400px;
+    }
+
+
+    .SegundaSeccion{
+        justify-content: center;
+        padding: 30px 20px;
+    }
+
+    .H2YParrafoSeccion2{
+        width: 380px;
+    }
+
+
+    .Tabs{
+        gap: 3px;
+    }
+
+    .ParrafoTerceraseccion{
+        width: 450px;
+    }
+
+    .BotonTerceraseccion{
+        width: 90px;
+    }
+
+
+    .Parrafo1CuartaSeccion{
+        width: 400px;
+    }
+
+    .ParrafoLista{
+       width: 350px; 
+    }
+
+
+    .ParrafoQuintaSeccion{
+        width: 420px;
+    }
+
+
+    .H2OctavaSeccion{
+        display: flex;
+        text-align: center;
+        font-size: 26px;
+    }
+
+
+    .ParrafoNovenaSeccion{
+        display: flex;
+        text-align: center;
+        width: 500px;
+    }
+
+
+    .InpuContacto{
+        width: 400px;
+    }
+
+    .textareaMensaje{
+        width: 400px;
+    }
+
+    .Basic{
+        width: 60%;
+    }
+
+    .Profesional{
+        width: 60%;
+    }
+
+    .Enterprise{
+        width: 60%;
+    }
+
+    .BotonDecimaSeccin{
+        width: 25%
+    }
+
+    
+}
+
+@media(max-width: 480px){
+
+    nav{
+        gap: 12px;
+    }
+
+    h1{
+        width: 250px;
+    }
+
+    .ContenedorTodo{
+        align-items: center;
+    }
+
+    .TextoBotonLogo .separadorBlanco{
+        display: none;
+    }
+
+    .TextoBotonLogo{
+        align-items: center;
+    }
+
+    .h2Form{
+        font-size: 20px;
+    }
+
+    .FormularioSeccion1{
+        width: 270px;
+    }
+    
+    .PrimerParrafo{
+        width: 320px;
+    }
+
+  
+    .H2YParrafoSeccion2{
+        width: 300px;
+    }
+
+
+    .H2TerceraSeccion{
+        width: 300px;
+    }
+
+    .ParrafoTerceraseccion{
+        width: 310px;
+    }
+
+
+    .Parrafo1CuartaSeccion{
+        width: 320px;
+    }
+
+    .ParrafoLista{
+        width: 230px; 
+    }
+
+
+    .ParrafoQuintaSeccion{
+        width: 300px;
+    }
+
+
+    .H2SextaSeccion{
+        display: flex;
+        text-align: center;
+        width: 200px;
+    }
+
+    .pequeñoParrafo{
+        display: flex;
+        text-align: center;
+        width: 300px;
+    }
+
+    .ParrafoCategoria{
+        width: 310px;
+    }
+
+    .PlansYPricing{
+        display: flex;
+        text-align: center;
+        width: 190px;
+    }
+
+
+    .ParrafoOctavaSeccion{
+        width: 300px;
+    }
+
+    .H2NovenaSeccion{
+        display: flex;
+        text-align: center;
+        width: 300PX;
+    }
+
+    .ParrafoNovenaSeccion{
+        width: 330px
+    }
+
+    .BotonDownload{
+        width: 30%;
+    }
+
+
+    .ParrafoDecimaSeccion{
+        width: 300px;
+    }
+
+    .InpuContacto{
+        width: 300px;
+    }
+
+    .textareaMensaje{
+        width: 300px;
+    }
+
+    .Basic{
+        width: 75%;
+    }
+
+    .Profesional{
+        width: 75%;
+    }
+
+    .Enterprise{
+        width: 75%;
+    }
+
+    .BotonDecimaSeccin{
+        width: 30%
+    }
+}
+
+
+
+
+
