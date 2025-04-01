@@ -40,7 +40,7 @@ a:hover{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-image: url(assets/images/headerBg.png);
+    background-image: url(../assets/images/headerBg.png);
     background-position: center;
     background-size: cover;
     height: 800px;
@@ -227,7 +227,7 @@ form{
 
 .Orange{
     color: white;
-    background-color: orange;
+    background-color: rgb(247, 144, 59);
     padding: 40PX 25px;
     transition: background 0.3s, color 0.3s;
 }
@@ -249,9 +249,10 @@ form{
 .BotonTerceraseccion{
     border: none;
     color: white;
+    font-weight: bold;
     background-color: rgb(247, 144, 59);
-    padding: 10px 0px;
-    width: 12%;
+    padding: 13px 0px;
+    width: 15%;
     border-radius: 4px;
     transition: background 0.3s, color 0.3s;
 }
@@ -568,7 +569,7 @@ h4{
     width: 270px;
     color: #676767;
     padding: 15px 23px;
-    background-image: url(assets/images/textBubble.png);
+    background-image: url(../assets/images/textBubble.png);
     box-shadow: 0 10px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -587,7 +588,7 @@ h4{
 
 .NovenaSeccion{
     color: white;
-    background-image: url(assets/images/bg2.png);
+    background-image: url(../assets/images/bg2.png);
     width: 100%;
     height: 300px;
     display: flex;
@@ -682,7 +683,8 @@ h4{
     padding: 12px 0px;
     color: white;
     border: none;
-    width: 7%;
+    width: 11%;
+    font-weight: bold;
     background-color: rgb(247, 144, 59);
     border-radius: 4px;
     transition: background 0.3s, color 0.3s;
